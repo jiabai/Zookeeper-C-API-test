@@ -1,0 +1,4 @@
+default: demo
+
+demo:
+	gcc cli.c -I/usr/local/include/zookeeper -L/usr/local/lib -DTHREADED -lzookeeper_mt
